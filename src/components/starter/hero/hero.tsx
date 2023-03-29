@@ -8,7 +8,9 @@ export default component$((props: HeroProps) => {
   return (
     <>
       <div class={styles.hero}>
-        <h1>Traduce tu ingles</h1>
+        <h1>
+          <strong>Traduce tu ingles</strong>
+        </h1>
         <input
           class={styles.searchInput}
           type="search"
