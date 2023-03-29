@@ -20,7 +20,7 @@ export default component$(() => {
       <Hero translateText={handleChange$} />
       <div class="section bright">
         <div class="container center">
-          <h2>
+          <h2 class="typing" >
             {stateTextTranslate?.text
               ? stateTextTranslate?.text
               : "Escribe algo para traducir..."}
