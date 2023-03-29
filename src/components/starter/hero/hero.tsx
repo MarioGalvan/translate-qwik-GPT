@@ -8,10 +8,11 @@ export default component$((props: HeroProps) => {
   return (
     <>
       <div class={styles.hero}>
-        <h1>Traduce tu ingles con AI</h1>
+        <h1>Traduce tu ingles</h1>
         <input
           class={styles.searchInput}
           type="search"
+          // value={props.translateText}
           onKeyUp$={(event: any) => {
             props.translateText(event?.target?.value);
           }}
@@ -20,20 +21,12 @@ export default component$((props: HeroProps) => {
               props.translateText("");
             }
           }}
+          onSearch$={(event: any) => {
+            props.translateText(event?.target?.value);
+          }}
           placeholder="Ingresa tu texto"
         />
       </div>
-
-      {/* <div class={styles.heroButtons}>
-        <button
-          class={styles.heroButton}
-          onClick$={() => {
-            props.translateText("Hello");
-          }}
-        >
-          Quiero ver magia!
-        </button>
-      </div> */}
     </>
   );
 });
