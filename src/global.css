@@ -9,7 +9,7 @@
 :root {
   --qwik-dark-blue: #006ce9;
   --qwik-light-blue: #18b6f6;
-  --qwik-light-purple: #ac7ff4;
+  --qwik-light-purple: #16aad6;
   --qwik-dark-purple: #713fc2;
 }
 
@@ -114,7 +114,8 @@ ul {
   width: 90vw;
   max-width: 1200px;
   margin: 0 auto;
-  background: linear-gradient(90deg, rgba(24, 182, 246, 0.6) 0%, rgba(172, 127, 244, 0.6) 100%);
+  background: linear-gradient(90deg, rgba(24, 182, 246, 0.6) 0%,
+   rgba(172, 127, 244, 0.6) 100%);
   overflow: hidden;
   border-radius: 6px;
 }
@@ -182,13 +183,7 @@ ul {
   }
 }
 
-/**
- * WHAT IS THIS FILE?
- *
- * Globally applied styles. No matter which components are in the page or matching route,
- * the styles in here will be applied to the Document, without any sort of CSS scoping.
- *
- */
+
 html {
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
@@ -200,7 +195,3 @@ html {
     'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-body {
-  padding: 0;
-  line-height: inherit;
-}

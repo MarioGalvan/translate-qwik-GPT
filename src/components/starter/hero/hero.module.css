@@ -10,12 +10,20 @@
   gap: 30px;
 }
 
+.searchInput{
+  width: 80%;
+  max-width: 500px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  padding: 0 20px;
+  font-size: 1.2rem;
+  outline: none;
+  color: #000;
+}
+
 .hero button {
   padding: 10px 40px;
 }
 
-@media screen (min-width: 768px) {
-  .hero {
-    height: 300px;
-  }
-}
+
