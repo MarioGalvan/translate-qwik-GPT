@@ -19,11 +19,24 @@
   padding: 0 20px;
   font-size: 1.2rem;
   outline: none;
-  color: #000;
+  color: #B5A9F8;
+}
+
+.searchInput::placeholder{
+  color: #B5A9F8;
 }
 
 .hero button {
   padding: 10px 40px;
 }
 
+
+.heroButtons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 20px;
+  margin:20px;
+}
 
