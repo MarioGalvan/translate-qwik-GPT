@@ -9,7 +9,7 @@ export default component$((props: HeroProps) => {
     <>
       <div class={styles.hero}>
         <h1>
-          <strong>Traduce tu ingles</strong>
+          <strong>Traduce con GPT 🤖</strong>
         </h1>
         <input
           class={styles.searchInput}
