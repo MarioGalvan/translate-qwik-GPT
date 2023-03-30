@@ -1,7 +1,7 @@
 import { $, component$, createContextId, PropFunction } from "@builder.io/qwik";
 import styles from "./hero.module.css";
 export const CTX: any = createContextId("hero");
-const BASE_URL_API_GPT = "http://127.0.0.1:3000";
+const BASE_URL_API_GPT = "https://translategpt.up.railway.app";
 interface HeroProps {
   translateText: PropFunction<(text: string) => void>;
 }
