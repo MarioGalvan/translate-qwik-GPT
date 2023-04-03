@@ -1,9 +1,14 @@
 .anchor {
   color: white !important;
-  display: block;
   font-size: 1.18rem;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
+  display: flex;
+  justify-self: start;
+  align-items: center;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  
 }
 
 .spacer {
